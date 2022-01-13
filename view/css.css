@@ -1,0 +1,11 @@
+
+.jfx-text-field
+{
+    -jfx-focus-color: black;
+    -jfx-unfocus-color: white;
+}
+-fx-prompt-text-fill{
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulabguardmanagementsystem.LoginPageController">
+   <children>
+      <AnchorPane layoutX="701.0" layoutY="106.0" prefHeight="489.0" prefWidth="369.0" style="-fx-background-color: #024B5E;" AnchorPane.bottomAnchor="105.0" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="106.0">
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" color="#024b5e99" height="90.0" radius="44.5" spread="0.3" width="90.0" />
+         </effect>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <JFXTextField id="textField" fx:id="username" focusColor="BLACK" layoutX="37.0" layoutY="145.0" prefHeight="30.0" prefWidth="269.0" promptText="User Name" style="-fx-text-fill: white; -fx-prompt-text-fill: black;" stylesheets="@css.css" unFocusColor="WHITE" AnchorPane.topAnchor="145.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField id="textField" fx:id="pass" focusColor="BLACK" layoutX="37.0" layoutY="245.0" prefHeight="25.0" prefWidth="269.0" promptText="Password" style="-fx-text-fill: white; -fx-prompt-text-fill: black;" stylesheets="@css.css" unFocusColor="WHITE" AnchorPane.topAnchor="245.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="sign_in" buttonType="RAISED" layoutX="37.0" layoutY="340.0" onAction="#sign_in_press" prefHeight="25.0" prefWidth="269.0" ripplerFill="WHITE" text="Sign In" textFill="WHITE" AnchorPane.topAnchor="340.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="307.0" fitWidth="276.0" layoutX="165.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="224.0" layoutX="219.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="219.0" AnchorPane.topAnchor="452.0">
+         <image>
+            <Image url="@../Images/title.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

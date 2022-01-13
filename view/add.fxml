@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulabguardmanagementsystem.All_guard_detailsController">
+   <children>
+      <Button fx:id="add_photo_btn" layoutX="1078.0" layoutY="258.0" mnemonicParsing="false" onAction="#add_photo_btn_press" prefHeight="25.0" prefWidth="118.0" text="Add Photo" />
+      <Text fontSmoothingType="LCD" layoutX="300.0" layoutY="134.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="GFID:" wrappingWidth="42.59033203125" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="122.0" />
+      <Text fontSmoothingType="LCD" layoutX="303.0" layoutY="103.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" AnchorPane.leftAnchor="303.0" AnchorPane.rightAnchor="877.001953125" AnchorPane.topAnchor="91.0" />
+      <Text fontSmoothingType="LCD" layoutX="568.0" layoutY="135.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="পদ" AnchorPane.leftAnchor="568.0" AnchorPane.topAnchor="123.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="416.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ডাকঘর" wrappingWidth="53.13671875" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="404.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="278.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="পিতার নাম" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1130.494140625" AnchorPane.topAnchor="266.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="308.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="মাতার নাম" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="296.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="476.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="জেলা" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="464.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="389.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="গ্রাম" wrappingWidth="53.13671875" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="377.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="444.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="থানা" wrappingWidth="53.13671875" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="432.0" />
+      <Text layoutX="301.0" layoutY="195.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="পোস্টিং" AnchorPane.leftAnchor="301.0" AnchorPane.topAnchor="183.0" />
+      <Text fontSmoothingType="LCD" layoutX="564.0" layoutY="230.94921875" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="564.0" AnchorPane.topAnchor="218.0" />
+      <Text fontSmoothingType="LCD" layoutX="11.0" layoutY="623.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ধার্যকৃত বেতন" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="611.0" />
+      <Text fontSmoothingType="LCD" layoutX="188.0" layoutY="535.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="উচ্চতা" wrappingWidth="42.59033203125" AnchorPane.leftAnchor="188.0" AnchorPane.topAnchor="523.0" />
+      <Text fontSmoothingType="LCD" layoutX="300.0" layoutY="230.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="জন্মতারিখ:" wrappingWidth="75.3662109375" AnchorPane.bottomAnchor="466.0390625" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="218.0" />
+      <Text fontSmoothingType="LCD" layoutX="300.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NID:" wrappingWidth="42.59033203125" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="153.0" />
+      <Text fontSmoothingType="LCD" layoutX="565.0" layoutY="165.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="মোবাইল" wrappingWidth="62.8564453125" AnchorPane.bottomAnchor="531.0390625" AnchorPane.leftAnchor="565.0" AnchorPane.topAnchor="153.0" />
+      <Text fontSmoothingType="LCD" layoutX="352.0" layoutY="260.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="অভিজ্ঞতা" AnchorPane.leftAnchor="352.0" AnchorPane.topAnchor="248.0" />
+      <Text fontSmoothingType="LCD" layoutX="13.0" layoutY="338.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="শিক্ষাগত যোগ্যতা" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="326.0" />
+      <Text fontSmoothingType="LCD" layoutX="353.0" layoutY="286.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="মন্তব্য" wrappingWidth="53.13671874999997" AnchorPane.leftAnchor="353.0" AnchorPane.topAnchor="274.0" />
+      <TextField fx:id="GFID_TF" layoutX="350.0" layoutY="117.0" prefHeight="0.0" prefWidth="209.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="117.0" />
+      <TextField fx:id="NID_TF" layoutX="350.0" layoutY="147.0" prefHeight="25.0" prefWidth="209.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="147.0" />
+      <TextField fx:id="NAME_TF" layoutX="350.0" layoutY="86.0" prefHeight="21.0" prefWidth="494.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="356.0" AnchorPane.topAnchor="86.0" />
+      <TextField fx:id="FATHER_TF" layoutX="100.0" layoutY="261.0" prefHeight="25.0" prefWidth="248.0" AnchorPane.bottomAnchor="414.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="852.0" AnchorPane.topAnchor="261.0" />
+      <TextField fx:id="MOTHER_TF" layoutX="100.0" layoutY="291.0" prefHeight="25.0" prefWidth="248.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="291.0" />
+      <TextField fx:id="designation" layoutX="625.0" layoutY="117.0" prefHeight="25.0" prefWidth="219.0" AnchorPane.rightAnchor="356.0" AnchorPane.topAnchor="117.0" />
+      <TextField fx:id="salary" layoutX="82.0" layoutY="606.0" prefHeight="25.0" prefWidth="81.0" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="1037.0" AnchorPane.topAnchor="606.0" />
+      <TextField fx:id="salary_type" layoutX="234.0" layoutY="606.0" prefHeight="25.0" prefWidth="98.0" AnchorPane.leftAnchor="234.0" AnchorPane.rightAnchor="868.0" AnchorPane.topAnchor="606.0" />
+      <TextField fx:id="contact" layoutX="625.0" layoutY="147.0" prefHeight="25.0" prefWidth="219.0" AnchorPane.bottomAnchor="528.0" AnchorPane.rightAnchor="356.0" AnchorPane.topAnchor="147.0" />
+      <TextField fx:id="remarks" layoutX="413.0" layoutY="273.0" prefHeight="25.0" prefWidth="248.0" AnchorPane.bottomAnchor="402.0" AnchorPane.leftAnchor="413.0" AnchorPane.rightAnchor="539.0" AnchorPane.topAnchor="273.0" />
+      <TextField fx:id="ward" layoutX="80.0" layoutY="371.0" prefHeight="21.0" prefWidth="248.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="872.0" AnchorPane.topAnchor="371.0" />
+      <TextField fx:id="gram" layoutX="80.0" layoutY="399.0" prefHeight="20.0" prefWidth="248.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="872.0" AnchorPane.topAnchor="399.0" />
+      <TextField fx:id="jilla" layoutX="81.0" layoutY="427.0" prefHeight="20.0" prefWidth="248.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="871.0" AnchorPane.topAnchor="427.0" />
+      <TextField fx:id="thana" layoutX="81.0" layoutY="459.0" prefHeight="25.0" prefWidth="248.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="871.0" AnchorPane.topAnchor="459.0" />
+      <TextField fx:id="posting" layoutX="350.0" layoutY="178.0" prefHeight="25.0" prefWidth="209.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="641.0" AnchorPane.topAnchor="178.0" />
+      <TextField fx:id="experience" layoutX="414.0" layoutY="243.0" prefHeight="21.0" prefWidth="248.0" AnchorPane.leftAnchor="414.0" AnchorPane.rightAnchor="538.0" AnchorPane.topAnchor="243.0" />
+      <TextField fx:id="height" layoutX="232.0" layoutY="518.0" prefHeight="25.0" prefWidth="98.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="870.0" AnchorPane.topAnchor="518.0" />
+      <Label fx:id="label" layoutX="10.0" layoutY="668.0" prefHeight="31.0" prefWidth="332.0" style="-fx-background-color: #eeecec;" textFill="#026514" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <JFXButton fx:id="back_btn" layoutX="-6.0" layoutY="-4.0" onAction="#back_btn_press" prefHeight="85.0" prefWidth="240.0" style="-fx-background-color: #800080;" text="BACK" textFill="#eeeeee" AnchorPane.bottomAnchor="615.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="960.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane layoutX="246.0" prefHeight="85.0" prefWidth="960.0" style="-fx-background-color: #3A3838;" AnchorPane.bottomAnchor="615.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="328.0" layoutY="20.0" text="Add New Employee" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="save_btn" layoutX="1071.0" layoutY="668.0" onAction="#save_btn_press" prefHeight="31.0" prefWidth="127.0" style="-fx-background-color: #3A3838;" text="SAVE" textFill="WHITE" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1071.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="668.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <JFXDatePicker fx:id="DOB_TF" layoutX="365.0" layoutY="207.0" prefHeight="28.0" prefWidth="98.0" AnchorPane.leftAnchor="365.0" AnchorPane.rightAnchor="737.0" AnchorPane.topAnchor="207.0" />
+      <JFXDatePicker fx:id="joining" layoutX="656.0" layoutY="205.0" prefHeight="28.0" prefWidth="98.0" AnchorPane.rightAnchor="446.0" AnchorPane.topAnchor="205.0" />
+      <ImageView fx:id="image_view" fitHeight="166.0" fitWidth="174.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="446.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="88.0">
+              <image>
+            <Image url="@../Images/Logo.png" />
+         </image>
+         </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="563.0" layoutY="195.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="বর্তমান ঠিকানা" AnchorPane.leftAnchor="563.0" AnchorPane.topAnchor="183.0" />
+      <TextField fx:id="current_address" layoutX="645.0" layoutY="178.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.leftAnchor="645.0" AnchorPane.topAnchor="178.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="536.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="বুক" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="524.0" />
+      <TextField fx:id="chest" layoutX="83.0" layoutY="519.0" prefHeight="16.0" prefWidth="81.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="1036.0" AnchorPane.topAnchor="519.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="567.7626953125" strokeType="OUTSIDE" strokeWidth="0.0" text="বয়স" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="554.8134765625" />
+      <TextField fx:id="age" layoutX="83.0" layoutY="549.0" prefHeight="21.0" prefWidth="81.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="1036.0" AnchorPane.topAnchor="549.0" />
+      <Text fontSmoothingType="LCD" layoutX="188.0" layoutY="594.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ধর্ম" wrappingWidth="42.59033203125" AnchorPane.topAnchor="582.0" />
+      <TextField fx:id="blood" layoutX="232.0" layoutY="547.0" prefHeight="25.0" prefWidth="98.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="870.0" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="592.7626953125" strokeType="OUTSIDE" strokeWidth="0.0" text="ওজন" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="579.8134765625" />
+      <TextField fx:id="weight" layoutX="83.0" layoutY="577.0" prefHeight="21.0" prefWidth="81.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="1036.0" AnchorPane.topAnchor="577.0" />
+      <Text fontSmoothingType="LCD" layoutX="188.0" layoutY="565.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="রক্ত" wrappingWidth="42.59033203125" AnchorPane.topAnchor="553.0" />
+      <TextField fx:id="religion" layoutX="232.0" layoutY="576.0" prefHeight="25.0" prefWidth="98.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="870.0" />
+      <Text fontSmoothingType="LCD" layoutX="664.0" layoutY="512.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="বৈবাহিক অবস্থা" wrappingWidth="81.0" AnchorPane.leftAnchor="664.0" AnchorPane.topAnchor="500.0" />
+      <TextField fx:id="marital" layoutX="976.0" layoutY="499.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.rightAnchor="73.0" AnchorPane.topAnchor="499.0" />
+      <ImageView fx:id="image_view" fitHeight="166.0" fitWidth="209.0" layoutX="991.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="455.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="88.0" />
+      <Text fontSmoothingType="LCD" layoutX="186.0" layoutY="623.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ধরণ" AnchorPane.leftAnchor="186.0" AnchorPane.topAnchor="611.0" />
+      <Label layoutX="674.0" layoutY="265.0" prefHeight="21.0" prefWidth="98.0" style="-fx-background-color: white;" text="চাকুরীর সূত্র" AnchorPane.leftAnchor="674.0" AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text fontSmoothingType="LCD" layoutX="684.0" layoutY="310.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="নাম" AnchorPane.leftAnchor="684.0" AnchorPane.topAnchor="298.0" />
+      <TextField fx:id="source_name" layoutX="710.0" layoutY="293.0" prefHeight="25.0" prefWidth="233.0" AnchorPane.leftAnchor="710.0" />
+      <Text fontSmoothingType="LCD" layoutX="945.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ঠিকানা" AnchorPane.leftAnchor="945.0" />
+      <TextField fx:id="source_address" layoutX="998.0" layoutY="292.0" prefHeight="25.0" prefWidth="209.0" AnchorPane.rightAnchor="2.0" />
+      <Text fontSmoothingType="LCD" layoutX="672.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="সম্পর্ক" wrappingWidth="35.478515624999886" AnchorPane.leftAnchor="672.0" />
+      <TextField fx:id="source_relation" layoutX="710.0" layoutY="322.0" prefHeight="25.0" prefWidth="135.0" AnchorPane.leftAnchor="710.0" />
+      <Text fontSmoothingType="LCD" layoutX="844.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="মোবাইল" />
+      <TextField fx:id="source_contact" layoutX="888.0" layoutY="323.0" prefHeight="21.0" prefWidth="127.0" />
+      <Text fontSmoothingType="LCD" layoutX="1020.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="পেশা" />
+      <TextField fx:id="source_occupation" layoutX="1053.0" layoutY="323.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.rightAnchor="3.0" />
+      <Text fontSmoothingType="LCD" layoutX="690.0" layoutY="395.1865234375" strokeType="OUTSIDE" strokeWidth="0.0" text="নাম" />
+      <TextField fx:id="emergency_name_1" layoutX="715.0" layoutY="374.0" prefHeight="25.0" prefWidth="225.0" />
+      <Text fontSmoothingType="LCD" layoutX="947.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ঠিকানা" />
+      <TextField fx:id="emergency_address_1" layoutX="989.0" layoutY="373.0" prefHeight="21.0" prefWidth="209.0" AnchorPane.rightAnchor="2.0" />
+      <Text fontSmoothingType="LCD" layoutX="681.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="সম্পর্ক" wrappingWidth="35.0" />
+      <TextField fx:id="emergency_relation_1" layoutX="715.0" layoutY="404.0" prefHeight="25.0" prefWidth="135.0" />
+      <Text fontSmoothingType="LCD" layoutX="849.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="মোবাইল" />
+      <TextField fx:id="emergency_contact_1" layoutX="894.0" layoutY="405.0" prefHeight="21.0" prefWidth="135.0" />
+      <Text fontSmoothingType="LCD" layoutX="1030.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="পেশা" />
+      <TextField fx:id="emergency_occupation_1" layoutX="1063.0" layoutY="405.0" prefHeight="25.0" prefWidth="135.0" AnchorPane.rightAnchor="2.0" />
+      <Label layoutX="671.0" layoutY="377.0" text="1.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="676.0" layoutY="351.0" prefHeight="21.0" prefWidth="168.0" style="-fx-background-color: white;" text="1 জন পরিচিত ব্যাক্তি:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_gfid" layoutX="692.0" layoutY="667.0" prefHeight="21.0" prefWidth="185.0" promptText="GFID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <JFXButton fx:id="edit_btn" layoutX="884.0" layoutY="667.0" onAction="#edit_btn_press" prefHeight="28.0" prefWidth="185.0" style="-fx-background-color: #3A3838;" text="EDIT/SEARCH" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="update_btn" layoutX="565.0" layoutY="667.0" onAction="#update_btn_press" prefHeight="31.0" prefWidth="127.0" style="-fx-background-color: #3A3838;" text="UPDATE" textFill="WHITE" AnchorPane.bottomAnchor="2.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <Label layoutX="13.0" layoutY="346.0" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="স্থায়ী ঠিকানা:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="marital_combo" layoutX="743.0" layoutY="496.0" prefHeight="25.0" prefWidth="106.0" />
+      <Label fx:id="marital_status" layoutX="854.0" layoutY="496.0" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #eeecec;">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="dob_show" layoutX="469.0" layoutY="209.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #eeecec;">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="joining_show" layoutX="760.0" layoutY="209.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #eeecec;">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="937.0" layoutY="501.0" text="স্ত্রীর নাম" />
+      <ComboBox fx:id="source_combo" layoutX="770.0" layoutY="262.0" prefWidth="150.0" />
+      <Label fx:id="source" layoutX="938.0" layoutY="262.0" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #eeecec;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <ComboBox fx:id="education_combo" layoutX="112.0" layoutY="322.0" prefHeight="25.0" prefWidth="127.0" />
+      <TextField fx:id="wife_age" layoutX="1162.0" layoutY="499.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="1135.0" layoutY="503.0" prefHeight="17.0" prefWidth="26.0" text="বয়স" />
+      <TextField fx:id="child_name_1" layoutX="713.0" layoutY="526.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="child_name_2" layoutX="714.0" layoutY="557.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="child_name_3" layoutX="717.0" layoutY="589.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="675.0" layoutY="530.0" text="1.পোষ্য" />
+      <Label layoutX="675.0" layoutY="562.0" text="2.পোষ্য" />
+      <Label layoutX="677.0" layoutY="593.0" text="3.পোষ্য" />
+      <Text fontSmoothingType="LCD" layoutX="916.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="সম্পর্ক/পেশা" wrappingWidth="70.60546875000006" />
+      <TextField fx:id="child_relation_1" layoutX="989.0" layoutY="528.0" prefHeight="25.0" prefWidth="135.0" />
+      <TextField fx:id="child_relation_2" layoutX="989.0" layoutY="560.0" prefHeight="25.0" prefWidth="135.0" />
+      <TextField fx:id="child_relation_3" layoutX="990.0" layoutY="591.0" prefHeight="25.0" prefWidth="135.0" />
+      <Text fontSmoothingType="LCD" layoutX="917.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="সম্পর্ক/পেশা" wrappingWidth="70.60546875" />
+      <Text fontSmoothingType="LCD" layoutX="916.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="সম্পর্ক/পেশা" wrappingWidth="75.31054687500011" />
+      <TextField fx:id="child_age_1" layoutX="1162.0" layoutY="529.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="1135.0" layoutY="533.0" prefHeight="17.0" prefWidth="26.0" text="বয়স" />
+      <TextField fx:id="child_age_2" layoutX="1162.0" layoutY="558.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="1135.0" layoutY="562.0" prefHeight="17.0" prefWidth="26.0" text="বয়স" />
+      <TextField fx:id="child_age_3" layoutX="1162.0" layoutY="585.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="1135.0" layoutY="589.0" prefHeight="17.0" prefWidth="26.0" text="বয়স" />
+      <Text fontSmoothingType="LCD" layoutX="12.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="শনাক্তকরণ চিহ্ন" />
+      <TextField fx:id="identification" layoutX="98.0" layoutY="490.0" prefHeight="25.0" prefWidth="233.0" />
+      <Label layoutX="350.0" layoutY="305.0" prefHeight="21.0" prefWidth="71.0" style="-fx-background-color: whiye;" text="সংযুক্ত :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="attachment" layoutX="414.0" layoutY="303.0" prefHeight="25.0" prefWidth="248.0" />
+      <Label fx:id="education_show" layoutX="248.0" layoutY="323.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #eeecec;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="print_show" layoutX="886.0" layoutY="192.0" prefHeight="17.0" prefWidth="106.0" />
+      <Text fontSmoothingType="LCD" layoutX="559.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="যোগদানের তারিখ:" wrappingWidth="101.99999213218689" />
+   </children>
+</AnchorPane>

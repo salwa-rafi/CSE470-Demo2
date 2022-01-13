@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulabguardmanagementsystem.Set_penaltyController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="29.0" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="l2" layoutX="218.0" layoutY="604.0" prefHeight="53.0" prefWidth="368.0" />
+            <JFXButton fx:id="back_btn" layoutX="1.0" layoutY="-45.0" onAction="#back_btn_press" prefHeight="85.0" prefWidth="240.0" style="-fx-background-color: #23CE6B;" text="BACK" AnchorPane.bottomAnchor="610.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="959.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </JFXButton>
+            <AnchorPane layoutX="234.0" layoutY="-44.0" prefHeight="90.0" prefWidth="966.0" style="-fx-background-color: #3A3838;" AnchorPane.bottomAnchor="610.0" AnchorPane.leftAnchor="234.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="318.0" layoutY="10.0" prefHeight="63.0" prefWidth="309.0" text="Set Penalty Price" textFill="WHITE">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="con_rec" layoutX="840.0" layoutY="611.0" onAction="#con_rec_press" prefHeight="70.0" prefWidth="115.0" style="-fx-background-color: #23CE6B;" text="EDIT">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="confirm_btn" layoutX="983.0" layoutY="611.0" onAction="#confirm_btn_press" prefHeight="70.0" prefWidth="122.0" style="-fx-background-color: df2935;" text="Save">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="121.0" layoutY="168.0" prefHeight="35.0" prefWidth="129.0" />
+            <Label layoutX="121.0" layoutY="165.0" prefHeight="35.0" prefWidth="88.0" text="ঘুমন্ত">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="121.0" layoutY="208.0" prefHeight="35.0" prefWidth="115.0" text="শার্ট ইন ছাড়া">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="121.0" layoutY="255.0" prefHeight="35.0" prefWidth="88.0" text="বেল্ট নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="121.0" layoutY="305.0" prefHeight="35.0" prefWidth="77.0" text="বাঁশি নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="121.0" layoutY="359.0" prefHeight="35.0" prefWidth="135.0" text="পরিচয়পত্র নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="121.0" layoutY="402.0" prefHeight="35.0" prefWidth="88.0" text="চুল বড়">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="637.0" layoutY="168.0" prefHeight="35.0" prefWidth="88.0" text="শেভ নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="637.0" layoutY="212.0" prefHeight="35.0" prefWidth="88.0" text="বুট নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="637.0" layoutY="264.0" prefHeight="35.0" prefWidth="115.0" text="পলিশ ছাড়া">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="636.0" layoutY="317.0" prefHeight="35.0" prefWidth="115.0" text="সিভিল জুতা">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="636.0" layoutY="367.0" prefHeight="35.0" prefWidth="109.0" text="এপুলেট নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <JFXTextField fx:id="sleep" layoutX="281.0" layoutY="162.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="shirt" layoutX="281.0" layoutY="208.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="belt" layoutX="281.0" layoutY="255.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="bashi" layoutX="281.0" layoutY="302.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="id" layoutX="281.0" layoutY="349.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="hair" layoutX="281.0" layoutY="395.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="shave" layoutX="762.0" layoutY="157.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="boot" layoutX="764.0" layoutY="204.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="polish" layoutX="762.0" layoutY="260.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="civil" layoutX="763.0" layoutY="307.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="appulate" layoutX="762.0" layoutY="354.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="nameplate" layoutX="764.0" layoutY="401.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <Label layoutX="637.0" layoutY="420.0" prefHeight="35.0" prefWidth="122.0" text="নেমপ্লেট নাই">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="label" layoutX="57.0" layoutY="606.0" prefHeight="77.0" prefWidth="387.0" />
+            <JFXButton fx:id="show_btn" layoutX="1015.0" layoutY="99.0" onAction="#show_btn_press" prefHeight="54.0" prefWidth="171.0" style="-fx-background-color: #3A3838;" text="SHOW " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></JFXButton>
+            <JFXTextField fx:id="dayitto" layoutX="281.0" layoutY="440.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="dirty_dress" layoutX="281.0" layoutY="486.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="no_dress" layoutX="281.0" layoutY="532.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="iron" layoutX="765.0" layoutY="448.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="absent" layoutX="767.0" layoutY="496.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="111.0" layoutY="452.0" prefHeight="35.0" prefWidth="135.0" text=" দায়িত্ব অবহেলা">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="494.0" prefHeight="35.0" prefWidth="171.0" text="অপররিচ্ছ পোশাক">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="542.0" prefHeight="35.0" prefWidth="135.0" text="সিভিল পোশাক">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="637.0" layoutY="472.0" prefHeight="35.0" prefWidth="109.0" text="ইস্ত্রি নেই">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="637.0" layoutY="520.0" prefHeight="35.0" prefWidth="94.0" text="অনুপুস্থিত">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

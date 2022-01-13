@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulabguardmanagementsystem.AddPenaltyController">
+   <children>
+      <JFXButton fx:id="back_btn" layoutX="10.0" layoutY="10.0" onAction="#back_btn_press" prefHeight="90.0" prefWidth="240.0" style="-fx-background-color: #23CE6B;" text="BACK" AnchorPane.bottomAnchor="610.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="960.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <AnchorPane layoutX="272.0" layoutY="31.0" prefHeight="89.0" prefWidth="467.0" style="-fx-background-color: #3A3838;" AnchorPane.bottomAnchor="610.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="318.0" layoutY="13.0" prefHeight="63.0" prefWidth="324.0" text="Add New Penalty" textFill="WHITE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="290.0">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="INSPECTOR_GFID" layoutX="759.0" layoutY="120.0" prefHeight="31.0" prefWidth="256.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ZONE" layoutX="759.0" layoutY="165.0" prefHeight="31.0" prefWidth="256.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="GUARD_AREA" layoutX="205.0" layoutY="162.0" prefHeight="25.0" prefWidth="256.0" AnchorPane.topAnchor="155.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="651.0" layoutY="123.0" prefHeight="25.0" prefWidth="92.0" text="Field Officer:" AnchorPane.leftAnchor="651.0" AnchorPane.topAnchor="123.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="700.0" layoutY="168.0" prefHeight="25.0" prefWidth="41.0" text="Area:" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="168.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="122.0" prefHeight="25.0" prefWidth="150.0" text="গার্ড  জিএফআইডি" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="163.0" prefHeight="25.0" prefWidth="125.0" text="পোস্টিং এরিয়া" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="GFID" layoutX="205.0" layoutY="119.0" prefHeight="31.0" prefWidth="256.0" AnchorPane.topAnchor="115.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="30.0" layoutY="201.0" prefHeight="25.0" prefWidth="102.0" text="তারিখ" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="580.0" layoutY="220.0" prefHeight="7.0" prefWidth="74.0" text="সময়" AnchorPane.leftAnchor="580.0" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TIME" layoutX="759.0" layoutY="213.0" prefHeight="31.0" prefWidth="256.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="28.0" layoutY="243.0" prefHeight="32.0" prefWidth="321.0" text="গার্ড এর অবস্থা ( প্রযোজ্য স্থানে ক্লিক করুন ) :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="c6" layoutX="31.0" layoutY="317.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="150.0" text="অপররিচ্ছ পোশাক">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c8" layoutX="322.0" layoutY="317.0" mnemonicParsing="false" text="ইস্ত্রি নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c11" layoutX="31.0" layoutY="345.0" mnemonicParsing="false" text="অনুপুস্থিত">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c12" layoutX="174.0" layoutY="345.0" mnemonicParsing="false" text="বেল্ট নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c13" layoutX="322.0" layoutY="345.0" mnemonicParsing="false" text="বাঁশি নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c9" layoutX="456.0" layoutY="317.0" mnemonicParsing="false" text="চুল বড়">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c14" layoutX="456.0" layoutY="345.0" mnemonicParsing="false" text="নেমপ্লেট নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c10" layoutX="596.0" layoutY="317.0" mnemonicParsing="false" text="শেভ নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c15" layoutX="596.0" layoutY="345.0" mnemonicParsing="false" text="পরিচয়পত্র নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c16" layoutX="31.0" layoutY="377.0" mnemonicParsing="false" text="বুট নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c17" layoutX="174.0" layoutY="377.0" mnemonicParsing="false" text="পলিশ ছাড়া">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c18" layoutX="322.0" layoutY="377.0" mnemonicParsing="false" text="সিভিল জুতা">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c19" layoutX="456.0" layoutY="377.0" mnemonicParsing="false" text="ট্রেনিং নাই" />
+      <CheckBox fx:id="c20" layoutX="596.0" layoutY="377.0" mnemonicParsing="false" text="এপুলেট নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c1" layoutX="31.0" layoutY="288.0" mnemonicParsing="false" text="দায়িত্ব অবহেলা">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c2" layoutX="174.0" layoutY="288.0" mnemonicParsing="false" text="অসতর্ক" AnchorPane.leftAnchor="174.0" />
+      <CheckBox fx:id="c3" layoutX="322.0" layoutY="288.0" mnemonicParsing="false" text="ঘুমন্ত">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c4" layoutX="456.0" layoutY="288.0" mnemonicParsing="false" text="পূর্ণ পোশাক">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c5" layoutX="596.0" layoutY="288.0" mnemonicParsing="false" text="সিভিল পোশাক">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="c7" layoutX="174.0" layoutY="317.0" mnemonicParsing="false" text="শার্ট ইন ছাড়া" AnchorPane.leftAnchor="174.0">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <Label layoutX="29.0" layoutY="414.0" prefHeight="32.0" prefWidth="275.0" text="পরিদর্শন মন্তব্য :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="r21" layoutX="148.0" layoutY="490.0" mnemonicParsing="false" onAction="#r21press" text="১ সেট ">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r22" layoutX="292.0" layoutY="489.0" mnemonicParsing="false" onAction="#r22press" text="২ সেট">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r31" layoutX="148.0" layoutY="518.0" mnemonicParsing="false" onAction="#r31press" text="রং জ্বালা">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r32" layoutX="291.0" layoutY="516.0" mnemonicParsing="false" onAction="#r32" text="ছেড়া">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r33" layoutX="461.0" layoutY="515.0" mnemonicParsing="false" onAction="#r33" text="ব্যবহার অযোগ্য">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r41" layoutX="148.0" layoutY="550.0" mnemonicParsing="false" onAction="#r41press" text="ছেড়া">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r42" layoutX="292.0" layoutY="549.0" mnemonicParsing="false" onAction="#r42press" text="ব্যবহার অযোগ্য">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r43" layoutX="461.0" layoutY="547.0" mnemonicParsing="false" onAction="#r43press" text="ইস্যু নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r1" layoutX="146.0" layoutY="461.0" mnemonicParsing="false" onAction="#r1press" text="১ সেট" AnchorPane.leftAnchor="146.0">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r2" layoutX="292.0" layoutY="460.0" mnemonicParsing="false" onAction="#r2press" text="২সেট">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r51" layoutX="148.0" layoutY="580.0" mnemonicParsing="false" onAction="#r51press" text="নষ্ট">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r52" layoutX="292.0" layoutY="579.0" mnemonicParsing="false" onAction="#r52press" text="ইস্যু নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r61" layoutX="148.0" layoutY="608.0" mnemonicParsing="false" onAction="#r61press" text="গড় হাজির">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r62" layoutX="292.0" layoutY="607.0" mnemonicParsing="false" onAction="#r62press" text="কতৃপক্ষের প্রয়োজন">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r53" layoutX="461.0" layoutY="577.0" mnemonicParsing="false" onAction="#r53press" text="মেয়াদউত্তীন">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r71" layoutX="148.0" layoutY="640.0" mnemonicParsing="false" onAction="#r71press" text=" নষ্ট">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="r72" layoutX="292.0" layoutY="639.0" mnemonicParsing="false" onAction="#r72press" text=" ইস্যু নাই">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <Label fx:id="poshak" layoutX="35.0" layoutY="457.0" prefHeight="25.0" prefWidth="79.0" text="পোশাক" underline="true" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="457.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="nostho" layoutX="35.0" layoutY="486.0" prefHeight="25.0" prefWidth="79.0" text="নষ্টঃ" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="karon" layoutX="35.0" layoutY="518.0" prefHeight="25.0" prefWidth="79.0" text="কারণ" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="boot" layoutX="35.0" layoutY="547.0" prefHeight="25.0" prefWidth="79.0" text="বুটঃ" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="id" layoutX="35.0" layoutY="576.0" prefHeight="25.0" prefWidth="79.0" text="আইডি" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="absent" layoutX="35.0" layoutY="604.0" prefHeight="25.0" prefWidth="79.0" text="অনুপস্থিত" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="plate" layoutX="35.0" layoutY="636.0" prefHeight="25.0" prefWidth="79.0" text="নেইমপ্লেট:" underline="true" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <JFXButton fx:id="save" layoutX="1017.0" layoutY="620.0" onAction="#save_press" prefHeight="89.0" prefWidth="184.0" style="-fx-background-color: #3A3838;" text="Save" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="960.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="610.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffffff99" height="56.58" radius="30.0125" spread="0.26" width="65.47" />
+         </effect>
+      </JFXButton>
+      <JFXDatePicker fx:id="DATE" layoutX="205.0" layoutY="199.0" prefWidth="256.0" />
+      <Label fx:id="label" layoutX="726.0" layoutY="427.0" prefHeight="90.0" prefWidth="444.0" textFill="#ff0202">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
